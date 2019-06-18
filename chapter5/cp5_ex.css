@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.a{
+.img_box1{
 	background-image: url(cp5_ex_img/box1.jpg);
 	background-size: cover;
 	background-position: center;
@@ -12,7 +12,7 @@
 	height: 200px;
 }
 /*C:\Users\n1280392\Desktop\HTML-CSS-\chapter5\cp5_ex_img*/
-.b{
+.img_box2{
 	background-image: url(cp5_ex_img/box2.jpg);
 	background-size: cover;
 	background-position: center;
@@ -20,7 +20,7 @@
 	height: 200px;
 }
 
-.c{
+.img_box3{
 	background-image: url(cp5_ex_img/box3.jpg);	
 	background-size: cover;
 	background-position: center;
@@ -28,7 +28,7 @@
 	height: 200px;
 }
 
-.d{
+.img_box4{
 	background-image: url(cp5_ex_img/box4.jpg);	
 	background-size: cover;
 	background-position: center;
