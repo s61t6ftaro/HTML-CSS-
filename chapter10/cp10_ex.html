@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="fa-events-icons-ready">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="cp10_ex.css">
 	<link rel="shortcut icon" href="img/favicon.ico">
@@ -10,13 +10,18 @@
 <body>
 	<header>
 		<div class="header_container clearfix">
-			<img src="img/logo.png" width="15%">
+			<a href=""><img src="img/logo.png" class="logo"></a>
+			<div class="resp_menu">
+				<span class="menu_bar"></span>
+				<span class="menu_bar"></span>
+				<span class="menu_bar"></span>
+			</div>
 			<nav>
 				<ul class="menu_list">
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Feature</a></li>
-					<li><a href="">Profile</a></li>
-					<li><a href="">Contact</a></li>
+					<li class="list_text none"><a href="">Portfolio</a></li>
+					<li class="list_text none"><a href="">Feature</a></li>
+					<li class="list_text none"><a href="">Profile</a></li>
+					<li class="list_text none"><a href="">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -24,54 +29,53 @@
 	<section class="header_main">
 		<div class="header_text_container">
 			<h1 class="header_maintext">Lorem lpsum</h1>
-			<p class="header_subtext">simply dummy text of the printing</p>
+			<p class="header_subtext">
+				simply dummy text of the printing
+			</p>
 		</div>
 	</section>
 	<section class="portfolio_container">
 		<div class="main_portfolio">
-			<h2 class="header_main_text">Portfolio</h2>
-			<p class="header_sub_text">
-				It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.<br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+			<h2 class="portfolio_main_text">Portfolio</h2>
+			<p class="portfolio_sub_text">
+				It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 			</p>
 			<div class="portfolio_img_box clearfix">
-				<div class="img_box sketch"></div>
+				<div class="img_box sketch resp_none"></div>
 				<div class="img_box websuku"></div>
-				<div class="img_box write" ></div>
+				<div class="img_box write resp_none"></div>
 				<div class="img_box webcamp"></div>
-				<div class="img_box talk"></div>
+				<div class="img_box talk resp_none"></div>
 				<div class="img_box webwoman"></div>
 			</div>
 		</div>
 	</section>
-
 	<section class="feature">
 		<div class="main_feature">
 			<h2 class="feature_main_text">Feature</h2>
 			<p class="feature_sub_text">
-				It is a long established fact that a reader will be distracted by the readable<br>
-				content of a page when looking at its layout.<br>
-				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 			</p>
 			<div class="strength_container clearfix">
 				<div class="strength_box">
 					<i class="fa fa-code" aria-hidden="true"></i>
 					<h3 class="strength_main_text">Strength1</h3>
 					<p class="strength_sub_text">
-						Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>old. Richard McClintock, a Latin <br>professor at Hampden-Sydney College in<br>Virginia, looked up one of the more<br>obscure Latin words, consectetur
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
 					</p>
 				</div>
 				<div class="strength_box">
 					<i class="fa fa-desktop" aria-hidden="true"></i>
 					<h3 class="strength_main_text">Strength2</h3>
 					<p class="strength_sub_text">
-						Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>old. Richard McClintock, a Latin <br>professor at Hampden-Sydney College in<br>Virginia, looked up one of the more<br>obscure Latin words, consectetur
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
 					</p>
 				</div>
 				<div class="strength_box">
 					<i class="fa fa-cogs" aria-hidden="true"></i>
 					<h3 class="strength_main_text">Strength3</h3>
 					<p class="strength_sub_text">
-						Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>old. Richard McClintock, a Latin <br>professor at Hampden-Sydney College in<br>Virginia, looked up one of the more<br>obscure Latin words, consectetur
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
 					</p>
 				</div>
 			</div>
@@ -81,47 +85,40 @@
 		<div class="profile_container">
 			<h2 class="profile_main_text">Profile</h2>
 			<p class="profile_sub_text">
-				It is a long established fact that a reader will be distracted by the readable<br>
-				content of a page when looking at its layout.<br>
-				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 			</p>
-			<div class="personal_infomation">
+			<div class="personal_infomation clearfix">
 				<div class="profile_img">
 					<div class="my_face"></div>
 				</div>
 				<div class="right_text">
 					<h3 class="name">MyName</h3>
 					<p class="self_introduction">
-						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45<br>BC, making it over 2000 years old. Richard McClintock, a Latin<br>professor at Hampden-Sydney College in Virginia, looked up<br>one of the more obscure Latin words, consectetur
-					</p>
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
 					<h3 class="skill">MySkills</h3>
-					<p class="skill_name">
-						HTML/CSS,JavaScript,JQuery,PhotoShop
-					</p>
+					<p class="skill_name">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="contact">
-		<div class="contact_container">
+		<div class="contact_container cleafix">
 			<h2 class="contact_main_text">Contact</h2>
 			<p class="contact_sub_text">
-				It is a long established fact that a reader will be distracted by the readable<br>
-				ontent of a page when looking at its layout.<br>
-				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 			</p>
 			<div class="contact_tool">
 				<div class="left_box_container">
 					<div class="left_box">
-						<h3>Mail</h3>
-						<a href=""><p>xxx@xxx.com</p></a>
-						<h3>Tell</h3>
-						<a href=""><p>000-0000-0000</p></a>
+						<h3 class="contact_mail">Mail</h3>
+						<a href="" class="contact_address"><p>xxx@xxx.com</p></a>
+						<h3 class="contact_tell">Tell</h3>
+						<a href="" contact_telnum><p>000-0000-0000</p></a>
 					</div>
 				</div>
 				<div class="right_box_container">
 					<div class="right_box">
-						<h3 class="SNS">SNS</h3>
+						<h3 class="sns">SNS</h3>
 						<i class="fa fa-facebook fa-5x" aria-hidden="true"></i>
 						<i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
 						<i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
